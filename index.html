@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            background-image: url('img/fondo.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: 'Arial', sans-serif;
+            margin: 20px; /* Agrega margen alrededor del contenido */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .image-card {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            transition: box-shadow 0.3s;
+            flex: 1;
+            min-width: 250px; /* Establece un ancho mínimo para mantener el mismo tamaño */
+            text-align: center; /* Centra el texto */
+        }
+
+        .image-card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .image-card:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Efecto de sombra al pasar el cursor */
+        }
+    </style>
+    <title>FOODTRAVEL</title>
+</head>
+<body>
+    <header>
+        <h1>FOODTRAVEL</h1>
+        <p>La aplicación que he creado está especialmente pensada para la dinámica ciudad de Bogotá. Al sumergirte en la plataforma, los usuarios tienen la oportunidad de explorar las distintas localidades que conforman esta metrópoli, brindándoles una experiencia más personalizada. Por ejemplo, al seleccionar una localidad como Usaquén, se despliega un catálogo completo de los restaurantes disponibles en esa área específica. Lo fascinante de nuestra aplicación radica en su capacidad para ofrecer una visión detallada de los menús de cada establecimiento. Los usuarios pueden navegar a través de una amplia variedad de opciones culinarias y, si encuentran algo que les atraiga, la aplicación les proporciona la opción de dar el siguiente paso de manera directa. ¿Te antoja algo en particular? Con un simple clic en el botón 'Ir a WhatsApp', puedes establecer una conexión directa con el restaurante de tu elección. Esta funcionalidad no solo agiliza el proceso de pedido, sino que también fomenta una comunicación directa y transparente entre el cliente y el restaurante. En resumen, nuestra aplicación no solo simplifica la búsqueda de restaurantes en Bogotá, sino que también mejora la experiencia de pedido al ofrecer una interacción directa y conveniente con los establecimientos locales.</p>
+    </header>
+    <div class="image-container">
+        <div class="image-card">
+            <img src="img/localidad.JPG" alt="Imagen 1">
+            <h2 class="image-title" style="color: #f7696b;">LOCALIDADES</h2>
+        </div>
+        <div class="image-card">
+            <img src="img/ele.JPG" alt="Imagen 2">
+            <h2 class="image-title" style="color: #61c0bf;">ELEGIR LOCALIDADES</h2>
+        </div>
+        <div class="image-card">
+            <img src="img/ver.JPG" alt="Imagen 3">
+            <h2 class="image-title" style="color: #f7c289;">VER EL MENU DE CADA LOCALIDAD</h2>
+        </div>
+        <div class="image-card">
+            <img src="img/wa.JPG" alt="Imagen 4">
+            <h2 class="image-title" style="color: #8e8cc9;">CONFIRMA TU ORDEN POR MEDIO DE WHATSAPP</h2>
+        </div>
+    </div>
+</body>
+</html>
